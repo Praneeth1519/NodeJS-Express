@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EMI Calculator</title>
+</head>
+<script src="task1.js">
+</script>
+<body>
+    <h1 style="color: orangered;">Home Loan EMI Calculator</h1>
+    <b>Loan Amount: </b> <input type="text" id="HomeLoanAmount" value="100000" oninput="printTable()"><br><br>
+    <b>Loan Tenure: </b> <input type="text" id="LoanTenure" value="1" oninput="printTable()"><br><br>
+    <b>Interest Rate: </b> <input type="text" id="InterestRate" value="1" oninput="printTable()"><br><br>
+
+    <h2 style="color: orangered;">Detailed Calculations</h2>
+    <b>EMI: </b><output id="EMI" type="number"></output><br><br>
+    <b>LoanTaken: </b><output id="LoanTaken" type="number"></output><br><br>
+    <b>Interest: </b><output id="Interest" type="number"></output><br><br>
+    <b>TotalAmount: </b><output id="TotalAmount" type="number"></output><br><br>
+
+    <h2 style="color: orangered;">Monthly Calculations</h2>
+    <table id="table" style="font-size: large;"></table>
+</body>
+</html>

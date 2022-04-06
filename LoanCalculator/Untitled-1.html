@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+    let addition=(x,y,call_input)=>{
+
+document.getElementById("demo1").innerHTML="Hello world";
+// console.log(x)
+call_input(x);
+}
+
+let input=(x)=>{
+document.getElementById("demo2").innerHTML=x;
+//console.log("Addition Performed")
+}
+
+addition(5,4,input)
+//setTimeout(addition,4000,"Steve",input);
+    </script>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+</body>
+</html>
